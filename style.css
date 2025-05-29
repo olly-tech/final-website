@@ -13,3 +13,28 @@ section.active {
     display: block;
 }
 
+/*FOR THE HEADER*/
+
+header {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+.header-one {
+    background-color: lightblue;
+}
+
+.header-two {
+    background-color: lightcoral;
+    height: 30vh;
+    width: 30vh;
+    display: inline-block;
+}
+
+.header-two-container {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
