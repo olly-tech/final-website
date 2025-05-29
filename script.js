@@ -4,17 +4,29 @@ let charmander = document.getElementById("charmander-section");
 let clickBulbasaur = document.getElementById("bulbasaur-btn");
 let clickCharmander = document.getElementById("charmander-btn");
 
-
-
 function showSection(sectionId) {
-    // remove active class
-    let sections = document.getElementsByClassName("section");
+  // remove active class
+  let sections = document.getElementsByClassName("section");
 
-    for(let i=0; i<sections.length; i++) {
-        sections[i].classList.remove("active");
-    }
+  for (let i = 0; i < sections.length; i++) {
+    sections[i].classList.remove("active");
+  }
 
-    // add active class to the right option 
-    let selectedOption = document.getElementById(sectionId);
-    selectedOption.classList.add("active");
+  // add active class to the right option
+  let selectedOption = document.getElementById(sectionId);
+  selectedOption.classList.add("active");
 }
+
+// FOR THE HEADER
+
+let headerHide = document.getElementById("header-two-container");
+
+function hideHeader() {
+  if (headerHide.classList.contains("hidden")) {
+    headerHide.classList.remove("hidden");
+  } else {
+    headerHide.classList.add("hidden");
+  }
+}
+
+headerHide.addEventListener("mouseover", hideHeader);

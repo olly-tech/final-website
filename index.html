@@ -12,16 +12,32 @@
   </head>
   <body>
     <header>
-      <h1>My Webpage</h1>
+      <div class="header-one">
+        <h1>My Webpage</h1>
+      </div>
+      <div id="header-two-container">
+      <div class="header-two"></div>
+      <div class="header-two"></div>
+      <div class="header-two"></div>
+      </div>
     </header>
     <nav>
       <ul>
         <li>
-          <a href="#bulbasaur-section" onclick="showSection('bulbasaur-section')">Bulbasaur</a>
+          <a
+            href="#bulbasaur-section"
+            onclick="showSection('bulbasaur-section')"
+            >Bulbasaur</a
+          >
 
-          <a href="#squirtle-section" id="squirtle-btn">Squirtle</a>
+          <a href="#squirtle-section" onclick="showSection('squirtle-section')" id="squirtle-btn">Squirtle</a>
 
-          <a href="#charmander-section" id="charmander-btn" onclick="showSection('charmander-section')">Charmander</a>
+          <a
+            href="#charmander-section"
+            id="charmander-btn"
+            onclick="showSection('charmander-section')"
+            >Charmander</a
+          >
         </li>
       </ul>
     </nav>
@@ -31,7 +47,10 @@
         <p>difhefuhwfiowehfohwfe</p>
         <p>wow</p>
       </section>
-    
+      <section class="section" id="squirtle-section">
+        <h2>The Squirtle Section</h2>
+        <p>qwhdiquhfiqehwfuqfeh</p>
+      </section>
 
       <section class="section" id="charmander-section">
         <h2>The Charmander Section</h2>
