@@ -19,4 +19,3 @@ function showSection(sectionId) {
     selectedOption.classList.add("active");
 }
 
-bb
