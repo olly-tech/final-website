@@ -18,3 +18,6 @@ function showSection(sectionId) {
     let selectedOption = document.getElementById(sectionId);
     selectedOption.classList.add("active");
 }
+
+
+
